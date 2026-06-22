@@ -222,4 +222,153 @@ else:
             print("Digit")
         else:
             print("Special Character")
+            #31. Print day name using day number (1–7).
+n=int(input("enter the no of day:"))
+if(n==1):
+    print("MONDAY:")
+elif(n==2):
+        print("TUESDAY:")
+elif(n==3):
+            print("WEDNESDAY")
+elif(n==4):
+                print("THURSDAY:")
+elif(n==5):
+                print("FRIDAY:")
+elif(n==6):
+                print("SATURDAY:")
+elif(n==7):
+                print("SUNDAY:")
+else:
+    print("invalid input:")
+#32. Print month name using month number.
+n=int(input("ENTER THE NUMBER OF MONTH:"))
+if(n==1):
+    print("JANUARY:")
+elif(n==2):
+    print("FEBRUARY:")
+elif(n==3):
+    print("MARCH:")
+elif(n==4):
+    print("APRIL:")
+elif(n==5):
+    print("MAY:")
+elif(n==6):
+    print("JUNE:")
+elif(n==7):
+    print("JULY:")
+elif(n==8):
+    print("AUGUST:")
+elif(n==9):
+    print("SEPTEMBER:")
+elif(n==10):
+    print("OCTOBER:")
+elif(n==11):
+    print("NOVEMBER:")
+elif(n==12):
+    print("DECEMBER:")
+else:
+    print("INVALID MONTH NUMBER:")
+    
+#33. Display grade based on percentage.
+per=float(input("ENTER THE PERCENTAGE :"))
+if(per>=90):
+    print("GRADE A (PASS):")
+elif(per<90 and per>=80):
+    print("GRADE B (PASS):")
+elif(per<80 and per>=70):
+    print("GRADE C (PASS):")
+elif(per<70 and per>=60):
+    print("GRADE D (PASS):")
+elif(per<60 and per>=33):
+    print("GRADE E (PASS):")
+elif(per<33):
+    print("GRADE F(FAIL)")
+else:
+    print("INVALID INPUT /PLEASE CHECK INPUT")
+#34. Display bonus percentage based on experience years.
+n=float(input("ENTER THE NO EXPERIENCE YEAR:"))
+if(n>=20 ):
+        print("BONUS PERCENTAGE IS 60 :")
+elif(n>=15 and n< 20):
+    print("BONUS PERCENTAGE IS 50 :")
+elif(n>=10 and n<15):
+        print("BONUS PERCENTAGE IS 40 :")
+elif(n>=5 and n< 10):
+        print("BONUS PERCENTAGE IS 30 :")
+elif(n>=1 and n<5):
+        print("BONUS PERCENTAGE IS 20 :")
+elif(n<1):
+        print("BONUS PERCENTAGE IS ZERO :")
+else:
+    print("PLEASE CHECK YOUR INPUT:")
+    
+#35. Identify traffic signal meaning.
+n=input("ENTER  THE COLOR OF  TRAFFIC LIGHT:")
+if(n in "redRED"):
+    print("STOP :")
+elif(n in "yellowYELLOW"):
+    print("READY :")
+elif(n in "GREENgreen"):
+    print("GO:")
+else:
+    print("INVALID COLOUR OF LIGHT OR DAMAGE OR BROKEN LIGHT:")
+#36. Categorize temperature as Cold / Warm / Hot.
+n=float(input("Enter the degre of tempertature:"))
+if(n>=40):
+    print(" HOT:")
+elif(n<40 and n>=10):
+    print("WARM:")
+elif(n<10):
+    print("COLD:")
+else:
+    ("invalid input:")
+#37. Categorize employee based on salary range.
+n=float(input("ENTER THE  SALARY OF EMPLOYEE:"))
+if(n>=3000000):
+    print(" IT IS A + CLASS EMPLOYEE:")
+elif(n<3000000 and n>=2500000):
+    print(" IT IS A  CLASS EMPLOYEE:")
+elif(n<2500000 and n>=2000000):
+    print("IT IS B+ CLASS EMPLOYEE:")
+elif(n<200000 and n>= 1500000):
+    print("IT IS C CLASS EMPLOYEE:")
+elif(n<1500000 and n<1000000):
+        print("IT IS D CLASS EMPLOYEE:")
+else:
+        print("IT IS E CLASS EMPLOYEE:")
+#38. Print discount percentage based on purchase amount.
+n=float(input("Enter the amount of purchase:"))
+if(n>= 25000):
+    print(" Discount percentage is 30%:")
+elif(n<25000 and n>=20000):
+    print("discoun percentage is 20%:")
+elif(n<20000 and n>=10000):
+    print("discounted percentage is 10%:")
+elif(n<10000 and n>=5000):
+        print("discounted percentage is 5%:")
+elif(n<5000 ):
+        print("discounted percentage is (zero)0%:")
+
+#39. Identify number type: single-digit / double-digit / multi-digit.
+num =abs(int(input("Enter a number: ")))
+if num <= 9:
+    print("Single-digit number")
+elif num <= 99:
+    print("Double-digit number")
+else:
+    print("Multi-digit number")
+
+#40. Assign performance rating: Poor / Average / Good / Excellent.
+n=float(input("enter the rating  between (1 to 5):"))
+if(n==5):
+    print("Excellent:")
+elif(n<5 and n>=4):
+    print("Good:")
+elif(n<4 and n>=2.5):
+    print("Average:")
+elif(n<2.5):
+    print("Poor:")
+else:
+    print("invalid input:")
+
 
