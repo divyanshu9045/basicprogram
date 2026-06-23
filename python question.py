@@ -370,5 +370,74 @@ elif(n<2.5):
     print("Poor:")
 else:
     print("invalid input:")
+#41. Check whether a number is divisible by 5 and 11.
+n=float(input("Enter a Number :"))
+if(n%5==0 and n%11==0):
+    print("number is divisible by 5 and 11:")
+else:
+    print("number is not divisible by 5 and 11:")
+#42. Check if a person is eligible for loan:
+● age ≥ 21
+● salary ≥ 25,000
+● credit score ≥ 700
+
+age=int(input("Enter the age of custumer:"))
+salary=float(input("enter the amount of salary of custumer:"))
+creditscore=float(input("enter the credit score :"))
+if(age>= 21 and salary>=25000 and creditscore>=700):
+    print("you are eligible for loan :")
+else:
+    print("you are not eligible for loan:")
+
+#43. Validate login using username AND password.
+user=input("Enter the username :")
+pas=input("enetr the password :")
+if(user=="divyanshu" and pas=="xd1234"):
+    print("welcome you are a valid user:")
+else:
+        print("you are not valid user / please check username and password:")
+     
+#44. Check student pass condition:
+ #● All subjects ≥ 40
+# ● Average ≥ 50
+sub1=float(input("enetr the marks of subject:"))
+sub2=float(input("enetr the marks of subject:"))
+sub3=float(input("enetr the marks of subject:"))
+sub4=float(input("enetr the marks of subject:"))
+sub5=float(input("enetr the marks of subject:"))
+total=(sub1+sub2+sub3+sub4+sub5)
+avg=total/5
+if(sub1>=40 and sub2>=40 and sub3>=40 and sub4>=40 and sub5>=40 and avg>=50):
+    print("pass:",avg)
+else:
+    print("fail:")
+#45. Check if a number lies between 10 and 100.
+n=int(input("enetr a number :"))
+if(10 < n < 100):
+    print("yees it is lies :")
+else:
+    print("no it is not lies :")
+#46. Check exam eligibility:
+● attendance ≥ 75% OR
+● medical certificate available
+n=float(input("enter the attendance:"))
+m=input("enetr yes or no if medical certificate:")
+if(n>=75):
+    print("you are eligible for exam:")
+elif(m in "yesYES"):
+    print("you are eligible foe exam:")
+else:
+        print("you are  not eligible foe exam:")
+#47. Determine insurance eligibility using age, health status, and income.
+age=int(input("enetr the age :"))
+income=float(input("eneter salary:"))
+health=input("enetr yes or no if any issueor disease:")
+if((age>=18 and age<60) and income>=18000 and health in"NOno"):
+    print("you are eligible for health insurance:")
+else:
+    print("you are  not eligible for health insurance:")
+
+
+
 
 
