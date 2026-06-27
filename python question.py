@@ -435,7 +435,7 @@ health=input("enetr yes or no if any issueor disease:")
 if((age>=18 and age<60) and income>=18000 and health in"NOno"):
     print("you are eligible for health insurance:")
 else:
-    print("you are  not eligible for health insurance:")
+    print("you are  not eligible for health insurance:") 
 
 
 
